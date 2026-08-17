@@ -1,0 +1,305 @@
+/* 
+   Google Font
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* 
+   Navbar
+*/
+
+.navbar{
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-size:18px;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#0d6efd !important;
+}
+
+/* 
+   Hero Section
+*/
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#eef5ff,#ffffff);
+}
+
+.hero h1{
+    font-size:52px;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:20px;
+    color:#555;
+}
+
+.hero img{
+    border-radius:20px;
+    transition:.4s;
+}
+
+.hero img:hover{
+    transform:scale(1.04);
+}
+
+/* 
+   Buttons
+*/
+
+.btn-primary{
+    padding:12px 35px;
+    border-radius:30px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+.btn-outline-dark{
+    padding:12px 30px;
+    border-radius:30px;
+}
+
+/* 
+   Cards
+*/
+
+.feature-card{
+    border:none;
+    border-radius:20px;
+    margin-bottom:25px;
+    transition:.4s;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.feature-card h3,
+.feature-card h4{
+    color:#0d6efd;
+}
+
+.feature-card p{
+    color:#666;
+}
+
+/* 
+   Dataset Boxes
+*/
+
+.dataset{
+    padding:70px 0;
+    background:#ffffff;
+}
+
+.box{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    font-weight:600;
+    transition:.3s;
+}
+
+.box:hover{
+    background:#084298;
+    transform:translateY(-5px);
+}
+
+/* 
+   Prediction Form
+*/
+
+.predict-page{
+    background:#eef4ff;
+}
+
+.prediction-card{
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.prediction-card h2{
+    color:#0d6efd;
+    font-weight:700;
+}
+
+.form-control{
+    height:50px;
+    border-radius:10px;
+}
+
+.form-control:focus{
+    border-color:#0d6efd;
+    box-shadow:0 0 10px rgba(13,110,253,.25);
+}
+
+/*
+   Result Page
+*/
+
+.price-box{
+    background:#198754;
+    color:white;
+    padding:25px;
+    font-size:34px;
+    font-weight:bold;
+    border-radius:15px;
+    margin:25px 0;
+}
+
+/* 
+   About Hero
+*/
+
+.about-hero{
+    background:linear-gradient(135deg,#0d6efd,#3d8bfd);
+    color:white;
+    padding:80px 0;
+    text-align:center;
+}
+
+.about-hero h1{
+    font-weight:700;
+}
+
+.tech-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.tech-box:hover{
+    transform:translateY(-8px);
+}
+
+/* 
+   Table
+*/
+
+table{
+    background:white;
+}
+
+.table th{
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* 
+   Footer
+*/
+
+footer{
+    margin-top:50px;
+    background:#212529;
+    color:white;
+    padding:20px;
+}
+
+footer p{
+    margin:0;
+}
+
+/* 
+   Responsive
+*/
+
+@media(max-width:992px){
+
+.hero{
+    text-align:center;
+    padding:50px 0;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero img{
+    margin-top:40px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:30px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+.prediction-card{
+    padding:25px;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+.price-box{
+    font-size:26px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero{
+    min-height:auto;
+    padding:40px 15px;
+}
+
+.hero h1{
+    font-size:28px;
+}
+
+.btn{
+    width:100%;
+    margin-bottom:10px;
+}
+
+}
